@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://ghostplayer352.github.io/Authorization/"))()Ioad("44e1e5c6b3cc2c5756b4339dd22de83c")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Roman304010/BrookhavenScripts/refs/heads/main/Protected_1465931515502474.txt'),true))()
