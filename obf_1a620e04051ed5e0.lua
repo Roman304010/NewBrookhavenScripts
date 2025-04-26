@@ -1,3 +1,19 @@
+local StarterGui = game:GetService("StarterGui")
+
+local function Notify(title, text, button, duration)
+    StarterGui:SetCore("SendNotification", {
+        Title = title,
+        Text = text,
+        Button1 = button,
+        Duration = duration or 5
+    })
+end
+
+Notify("Спасибо за использование скрипта!", "Приятной игры! :)", "Спасибо", 5)
+wait(2)
+Notify("Внимание!", "Скрипт может временно крашнуть игру", nil, 10) -- Без кнопки
+wait(0.5)
+Notify("Загружаем скрипт...", "Обычно это занимает до 2-х минут", nil, 10)
 --[[
           ...                               .---:                                                                                             
          .%%%-                             *%%%#*                                                 :===                                        
